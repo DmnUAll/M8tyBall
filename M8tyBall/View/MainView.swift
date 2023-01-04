@@ -1,11 +1,14 @@
 import UIKit
 
+// MARK: - MainViewDelegate protocol
 protocol MainViewDelegate: AnyObject {
     func ballTapped()
 }
 
+// MARK: - MainView
 final class MainView: UIView {
 
+    // MARK: - Properties and Initializers
     weak var delegate: MainViewDelegate?
 
     private let backgroundImageView: UIImageView = {
@@ -44,6 +47,7 @@ final class MainView: UIView {
     }
 }
 
+// MARK: - Helpers
 extension MainView {
 
     @objc private func ballTapped() {

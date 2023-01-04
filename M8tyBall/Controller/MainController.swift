@@ -1,7 +1,9 @@
 import UIKit
 
+// MARK: - MainController
 final class MainController: UIViewController {
 
+    // MARK: - Properties and Initializers
     private var presenter: MainPresenter?
     lazy var mainView: MainView = {
         let view = MainView()
@@ -25,6 +27,7 @@ final class MainController: UIViewController {
     }
 }
 
+// MARK: - Helpers
 extension MainController {
     private func setupConstraints() {
         let constraints = [

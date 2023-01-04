@@ -1,7 +1,9 @@
 import Foundation
 
+// MARK: - Answers
 struct Answers {
 
+    // MARK: - Properties and Initializers
     private let answersArray: [String] = [
         "Yes",
         "No",

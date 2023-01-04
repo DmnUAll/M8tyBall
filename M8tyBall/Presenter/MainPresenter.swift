@@ -1,8 +1,10 @@
 import UIKit
 import MediaPlayer
 
+// MARK: - MainPresenter
 final class MainPresenter {
 
+    // MARK: - Properties and Initializers
     weak var viewController: MainController?
     private var player: AVAudioPlayer?
     private let answers = Answers()
@@ -13,6 +15,7 @@ final class MainPresenter {
     }
 }
 
+// MARK: - Helpers
 extension MainPresenter {
 
     private func playSound(_ soundName: String) {
@@ -33,6 +36,7 @@ extension MainPresenter {
     }
 }
 
+// MARK: - MainViewDelegate
 extension MainPresenter: MainViewDelegate {
 
     func ballTapped() {
