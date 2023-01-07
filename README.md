@@ -1,7 +1,9 @@
 # M8tyBall
 Ask your question to the mighty ball and shake it for answer
 
-![IMG_8775](https://user-images.githubusercontent.com/82824022/210391756-9b1c9390-0c64-423d-b267-8024acb384ab.PNG)
+<p align="center">
+<img src="https://user-images.githubusercontent.com/82824022/210391756-9b1c9390-0c64-423d-b267-8024acb384ab.PNG" width=30% height=30%>
+</p>
 
 This project was the fourth app writen by myself. It helped me to understand an UIEvent (for shake recognizer) and AVAudioPlayer methods a little further.
 
