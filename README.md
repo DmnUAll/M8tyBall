@@ -11,3 +11,5 @@ At some moment - the project was refactored to exclude a storyboard UI design. A
 
 Unfornutanely - the audio player causing a memory leak, that i can't fix (will be glad for any advices).
 
+Disclaimer:
+The project was made for educational purposes only.
